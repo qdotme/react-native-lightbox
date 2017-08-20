@@ -4,9 +4,9 @@
 'use strict';
 
 var React = require('react');
-var {
-  PropTypes,
-} = React;
+
+import PropTypes from 'prop-types'; 
+
 var {
   Animated,
   Dimensions,

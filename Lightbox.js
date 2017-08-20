@@ -7,8 +7,10 @@ var React = require('react');
 var {
   Children,
   cloneElement,
-  PropTypes,
 } = React;
+
+import PropTypes from 'prop-types';
+
 var {
   Animated,
   TouchableHighlight,
