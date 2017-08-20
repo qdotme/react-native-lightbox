@@ -10,6 +10,7 @@ var {
 } = React;
 
 import PropTypes from 'prop-types';
+var createReactClass = require('create-react-class');
 
 var {
   Animated,
@@ -20,7 +21,7 @@ var TimerMixin = require('react-timer-mixin');
 
 var LightboxOverlay = require('./LightboxOverlay');
 
-var Lightbox = React.createClass({
+var Lightbox = createReactClass({
   mixins: [TimerMixin],
 
   propTypes: {
